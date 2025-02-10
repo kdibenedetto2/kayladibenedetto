@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Torture Test</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Intro Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Introduction</h3>
+                                            <p><br>Since we got our first print out of the way, it was now time to try performing a torture test! But what even is a torture test? In 3D printing, a torture test is a print that will evaluate certain abilities of your 3D printer, including its ability to print overhangs, span bridges, or maintain dimensional accuracy. Torture tests are important because they tell you the limitations of your printer. When we know the printer’s limitations, we are provided with design constraints. As we talked about in class, design constraints are a necessary part of the design process and lead to creativity and good ideas!  <p/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Process Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Process</h3>
+                                            <p><br>To find a torture test that would test the limits of our printers, I went on thangs.com and searched for “calibration torture test”. After searching for a bit, I found a spiral structure that had overhangs and low bed adhesion (shown to the right).<p/>
+                                        </div>
+                                        <img class="img-fluid" src="assets/Project 1/spiralreallife.png" style="width: 275px; height: 275px;"alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Result Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder"></h3>
+                                            I then downloaded the STL file associated with the torture test and opened it in PrusaSlicer (shown to the right). Unlike the 3MF file that we used on the previous print, an STL file only stores info about the print’s geometry, while a 3MF file also contains the print settings, color and texture info, and default material. A 3MF file may be more helpful when using a print created by someone else. <br><br> In PrusaSlicer, you can see towards the bottom of the screenshots that there is a warning that there may be stability issues with the print. However, since this is a torture test I totally ignored it!<p/>
+                                        </div>
+                                        <img class="img-fluid" src="assets/Project 1/spiralCALIB.png" style="width: 275px; height: 275px;"alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Result Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Results</h3>
+                                            <p><br>While this torture test was originally supposed to take 2 hours, about 20 minutes into printing it started slugging! (shown to the right) Slugging is a term for when the filament becomes goopy and melts upon itself, rather than forming layers of a 3D print. Slugging is potentially very bad for the printer, because if the melted filament dries and gets stuck on the nozzle, the printer will break and become impossible to use. This slugging was occurring at the same time as the print got lifted off of the steel plate. This told me that this print was having adhesion problems. To solve these adhesion problems, I took two approaches, detailed below.<p/>
+                                        </div>
+                                        <video style = "margin-top: -40px; margin-left: 70px" width="320" height="640" controls>
+                                            <source src="assets/Project 1/sluggingvid.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Result Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Strategy 1: Cleaning the Plate</h3>
+                                            <p><br>I wanted to retry printing the torture test and see if I could get better adhesion. I had two main theories of why the print didn’t stick so well. The first one was that the plate was too oily from people touching it, resulting in subpar adhesion. To try solving this, I used isopropyl alcohol and a kimwipe to clean off the steel plate before starting up the print again. The results? The printer seemed to support the printing process for longer this time, but it ultimately failed in the same way. The original print (left) versus this secondary print (right) is shown in the image to the right.<p/>
+                                        </div>
+                                        <img class="img-fluid" src="assets/Project 1/spiral_clean_vs_unclean.jpg" style="width: 275px; height: 275px;"alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                    <!-- Result Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Strategy 2: Adjusting the Nozzle</h3>
+                                            <p><br>Because the print wasn’t sticking to the bed well, another possible cause that I came up with was that the nozzle was too far away from the bed. In my next print, I changed the nozzle’s default settings from being 0.0 to -0.4 in the z axis. However this adjustment actually caused the design to fail faster. While it didn’t start slugging, the print was still getting lifted up from the bed. What was produced by this adjustment is shown to the right.<p/>
+                                        </div>
+                                        <img class="img-fluid" src="assets/Project 1/spiral_calib_frontview.jpg" style="width: 275px; height: 275px;"alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Conclusion Card-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h3 class="fw-bolder">Conclusions</h3>
+                                            <p><br>Ultimately, I think that the calibration was probably originally correct and that while cleaning the steel plate somewhat helped the outcome, it was still unsuccessful both times I reprinted the torture test. While it is possible to design almost anything in a 3D file, it is not necessarily possible to print everything you design on such a file. Therefore you must understand the limitations of your individual 3D printer before designing a print. In the Prusa Mini + printers, I learned that it has trouble with bed adhesion specifically after performing my torture test. Next time, I would create a wider raft to adjust for this, in addition to making sure the steel plate was cleaned beforehand. While I didn’t have time to try out this spiral torture test an additional time, I do wonder if the Prusa Mini + could actually handle it with some adjustments!<p/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
